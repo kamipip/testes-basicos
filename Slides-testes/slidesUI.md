@@ -1,3 +1,8 @@
+---
+marp: true
+theme: gaia
+---
+
 # Por que testar a UI?
 
 Testar a **Interface do Usuário (UI)** é crucial para garantir que o software funcione conforme esperado para os usuários finais. Isso inclui verificar se os elementos visuais estão corretos, se as interações são intuitivas e se a experiência geral do usuário é satisfatória. Testes de UI ajudam a identificar problemas de usabilidade, bugs visuais e garantir a consistência da aplicação.
