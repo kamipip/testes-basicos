@@ -106,3 +106,105 @@ Está disponível para os navegadores **Google Chrome**, **Mozilla Firefox** e *
 
 ---
 
+# Testes de segurança
+
+Os testes de segurança (security testing) são uma prática essencial para garantir a proteção e integridade de dados e de informações em sistemas, aplicativos e redes. Dessa forma, os testes verificam se o programa está funcionando como esperado, identificando e analisando possíveis vulnerabilidades e pontos de falha que possam ser explorados por hackers e criminosos cibernéticos.
+
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+---
+
+# OWASP ZAP
+
+OWASP ZAP (Zed Attack Proxy) é uma ferramenta de teste de penetração gratuita e de código aberto utilizada para testar a segurança de aplicativos da web. Ela é mantida por The Software Security Project (SSP), uma iniciativa focada em melhorar a segurança de software. É conhecido como um “proxy man-in-the-middle”, interceptando e inspecionando o tráfego entre o navegador e a aplicação, permitindo que os testadores identifiquem e explorem vulnerabilidades.
+
+![Testes de segurança](https://www.zaproxy.org/getting-started/images/browser-no-proxy.png)
+
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+---
+
+# Características do OWASP ZAP
+
+- **Open source** e gratuito.
+- **Interface amigável e intuitiva**, adequada para desenvolvedores e profissionais de segurança.
+- **Escaneamento passivo** que analisa o tráfego HTTP/HTTPS sem enviar solicitações adicionais ao servidor.
+- **Escaneamento ativo:** envolve a interação direta com a aplicação web, enviando várias solicitações adicionais ou modificadas ao servidor para identificar vulnerabilidades.
+- **Spider** para descoberta de conteúdo.
+- **Relatórios detalhados** de vulnerabilidades
+
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+---
+
+# Como usar o OWASP ZAP para uma verificação automatizada?
+## Exemplo prático
+
+1. **Página inicial:** Inserir a URL do aplicativo web escolhido para sofrer os ataques. 
+
+![Página inicial](./zap1.jpeg)
+
+---
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+2. **Spider:** O ZAP prosseguirá rastreando o aplicativo web com seu spider e escaneando passivamente cada página que encontrar.
+
+![Página inicial](./zap2.jpeg)
+
+---
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+3. **Varreduras ativas:** Então o ZAP usará o scanner ativo para atacar todas as páginas, funcionalidades e parâmetros descobertos.
+
+![Página inicial](./zap3.jpeg)
+
+---
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+4. **Alertas**
+
+![alertas](./zap4.jpeg)
+
+---
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+5. **Relatório:**
+
+    - Tipos de alertas com o grau de vulnerabilidade:
+
+    ![Página inicial](./zap5.jpeg)
+
+
+    - Sessão que contém informações adicionais sobre os alertas com o grau de vulnerabilidade:
+
+    ![Página inicial](./zap6.jpeg)
+
+---
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+
+# Conclusão
+
+Os testes de segurança são cruciais para proteger aplicações web contra ameaças e vulnerabilidades. O OWASP ZAP oferece uma maneira eficiente e eficaz de realizar esses testes, ajudando a garantir a segurança e a integridade de sistemas web.
+
+
+<!-- _backgroundColor: #f5f5f5 -->
+<!-- _footer: "Fonte: blog.ebaconline.com.br" -->
+
+---
